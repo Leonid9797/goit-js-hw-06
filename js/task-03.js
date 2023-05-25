@@ -20,3 +20,6 @@ const galleryMarkup = images
   .join("");
 
 galleryList.insertAdjacentHTML("beforeend", galleryMarkup);
+
+galleryList.style.display = "flex";
+galleryList.style.flexDirection = "row";
